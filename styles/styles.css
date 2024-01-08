@@ -35,8 +35,24 @@ body{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
+}
+
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: rgb(124, 8, 8);
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -62,15 +78,16 @@ section{
 }
 
 
-.banner-text h2{
+.banner-text h3{
     color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
-.banner-text h3{
+.big-text-header{
     color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
@@ -160,25 +177,28 @@ section{
 
 .party-text button{
     color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
     background: none;
     border-radius: none;
     border:none;
-    margin-left: 32px;
 }
 
+
+.party-text button:hover{
+    background: #ffffff48;
+    border-radius: 30px;
+    padding: 16px 32px;
+    transition: 0.3s ease-in-out;
+}
 .party-img{
     width:320px
 }
 
 
 /* portfolio section  */
+
+.portfolio-text{
+    margin-top: -600px;
+}
 
 .portfolio-text h3{
     margin-bottom: 22px;
@@ -259,6 +279,11 @@ section{
     height: 71px;
 }
 
+form button:hover{
+    background: rgb(151, 1, 1);
+    transition: .5s ease;
+}
+
 form{
     display: flex;
     justify-content: center;
@@ -318,8 +343,133 @@ footer{
 }
 
 
+/* venue section */
+.gradient-fill-banner{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.venue-content{
+    text-align: center;
+    padding: 100px 0;;
+}
+.venue-content p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 48px;
+}
+
+.venue-content p span{
+    color: #F00;
+}
+
+/* best offer section  */
+
+.offer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-offer{
+    max-width: 393px;;
+}
+
+.celebration{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 118px;
+    margin-left: 70px;
+}
+
+.celebration img{
+    padding: 34.08px;
+    width: 364.844px;
+    height: 364.844px;
+
+}
+
+.new-year h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-year img{
+    width: 140px;
+    margin-top: 43px;
+}
+
+.new-offer h3{
+    margin: 16px 0 22px 0;
+}
+
+
+/* holiday sale section */
+
+.holiday-content{
+    text-align: center;
+}
+
+.holiday-content .all-caps-red{
+    color: #070211;
+}
+.holiday-content h3{
+    color: #070211;
+    margin: 16px 0 28px 0;
+}
+
+.holiday-content h3 span{
+    color: #F00;
+}
+
+.holiday-content{
+    width: 66.5%;
+    margin: 0 auto;
+}
 
 
 
+.test{
+    margin-top:170px;
+}
+.discount-offer{
+    display: block;
+}
+.surprise-box>img{
+    width: 796.463px;
+    height: 662.07px;
 
+}
+
+.surprise-box{
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-55%, -45%);
+    
+}
+
+
+.model{
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(17.5%, -222%);
+}
+
+.model img{
+    width: 429px;
+}
+
+.discount{
+    height: 300px;
+    position: relative;
+    left: 27%;
+    transform: translate(26%, -300%);
+}
 
