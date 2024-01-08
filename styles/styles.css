@@ -194,7 +194,7 @@ section{
 /* portfolio section  */
 
 .portfolio-text{
-    margin-top: -600px;
+    margin-top: -620px;
 }
 
 .portfolio-text h3{
@@ -427,17 +427,17 @@ footer{
     display: block;
 }
 .surprise-box>img{
-    width: 796.463px;
-    height: 662.07px;
+    /* width: 796.463px; */
+    height: 600.07px;
 
 }
 
 .surprise-box{
     height: 300px;
     position: relative;
-    left: 50%;
+    left: 55%;
     top: 50%;
-    transform: translate(-55%, -45%);
+    transform: translate(-55%, -30%);
     
 }
 
@@ -457,7 +457,7 @@ footer{
 .discount{
     height: 300px;
     position: relative;
-    left: 27%;
+    left: 30%;
     transform: translate(26%, -300%);
 }
 
