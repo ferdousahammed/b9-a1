@@ -188,7 +188,23 @@ section{
 }
 .party-img{
     width:320px;
-    /* mix-blend-mode:multiply; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.party-img .blended{
+    mix-blend-mode: multiply;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.party-img .normal{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -252,7 +268,7 @@ section{
 .newsletter-content form input{
     padding: 25px 30px;
     width: 49.09%;
-    color: rgba(7, 2, 17, 0.30);
+    color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -427,23 +443,21 @@ footer{
 }
 
 .discount-offer{
-    position: relative;
+    position: absolute;
 }
 
 .red-base{
     border-radius: 16px 0px 16px 16px;
-    position: relative;
+    position: absolute;
     height: 229px;
     z-index: 1;
-    bottom: 70px;
+    top: 433px;
 }
 
 .surprise-box img{
-    width: 600px;
     position: relative;
     z-index: 2;
-    top: 140px;
-    left: 30px
+    left: 30px;
 }
 
 .model img{
@@ -456,7 +470,7 @@ footer{
 
 .discount img{
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     left: 740px;
     top: 70px;
 }
