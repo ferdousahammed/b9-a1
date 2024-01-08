@@ -315,6 +315,11 @@ footer{
     line-height: 40px;
 }
 
+.copyright-text a{
+    text-decoration: none;
+}
+
+
 .contact-info,.copyright-text{
     display: flex;
     justify-content: space-between;
